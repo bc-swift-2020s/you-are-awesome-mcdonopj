@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C16C3B23D120AC00336215 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C16C3A23D120AC00336215 /* AppDelegate.swift */; };
+		49C16C3D23D120AC00336215 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C16C3C23D120AC00336215 /* SceneDelegate.swift */; };
+		49C16C3F23D120AC00336215 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C16C3E23D120AC00336215 /* ViewController.swift */; };
+		49C16C4223D120AC00336215 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C16C4023D120AC00336215 /* Main.storyboard */; };
+		49C16C4423D120B300336215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C16C4323D120B300336215 /* Assets.xcassets */; };
+		49C16C4723D120B300336215 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C16C4523D120B300336215 /* LaunchScreen.storyboard */; };
+		49C16C5223D120B300336215 /* You_Are_Awesome_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C16C5123D120B300336215 /* You_Are_Awesome_Tests.swift */; };
+		49C16C5D23D120B300336215 /* You_Are_Awesome_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C16C5C23D120B300336215 /* You_Are_Awesome_UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C16C4E23D120B300336215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C16C2F23D120AC00336215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C16C3623D120AC00336215;
+			remoteInfo = "You Are Awesome!";
+		};
+		49C16C5923D120B300336215 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49C16C2F23D120AC00336215 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49C16C3623D120AC00336215;
+			remoteInfo = "You Are Awesome!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49C16C3723D120AC00336215 /* You Are Awesome!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You Are Awesome!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C16C3A23D120AC00336215 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49C16C3C23D120AC00336215 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		49C16C3E23D120AC00336215 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49C16C4123D120AC00336215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C16C4323D120B300336215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49C16C4623D120B300336215 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49C16C4823D120B300336215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C16C4D23D120B300336215 /* You Are Awesome!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Are Awesome!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C16C5123D120B300336215 /* You_Are_Awesome_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Are_Awesome_Tests.swift; sourceTree = "<group>"; };
+		49C16C5323D120B300336215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49C16C5823D120B300336215 /* You Are Awesome!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "You Are Awesome!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C16C5C23D120B300336215 /* You_Are_Awesome_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = You_Are_Awesome_UITests.swift; sourceTree = "<group>"; };
+		49C16C5E23D120B300336215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49C16C3423D120AC00336215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C4A23D120B300336215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C5523D120B300336215 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49C16C2E23D120AC00336215 = {
+			isa = PBXGroup;
+			children = (
+				49C16C3923D120AC00336215 /* You Are Awesome! */,
+				49C16C5023D120B300336215 /* You Are Awesome!Tests */,
+				49C16C5B23D120B300336215 /* You Are Awesome!UITests */,
+				49C16C3823D120AC00336215 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49C16C3823D120AC00336215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49C16C3723D120AC00336215 /* You Are Awesome!.app */,
+				49C16C4D23D120B300336215 /* You Are Awesome!Tests.xctest */,
+				49C16C5823D120B300336215 /* You Are Awesome!UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49C16C3923D120AC00336215 /* You Are Awesome! */ = {
+			isa = PBXGroup;
+			children = (
+				49C16C3A23D120AC00336215 /* AppDelegate.swift */,
+				49C16C3C23D120AC00336215 /* SceneDelegate.swift */,
+				49C16C3E23D120AC00336215 /* ViewController.swift */,
+				49C16C4023D120AC00336215 /* Main.storyboard */,
+				49C16C4323D120B300336215 /* Assets.xcassets */,
+				49C16C4523D120B300336215 /* LaunchScreen.storyboard */,
+				49C16C4823D120B300336215 /* Info.plist */,
+			);
+			path = "You Are Awesome!";
+			sourceTree = "<group>";
+		};
+		49C16C5023D120B300336215 /* You Are Awesome!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				49C16C5123D120B300336215 /* You_Are_Awesome_Tests.swift */,
+				49C16C5323D120B300336215 /* Info.plist */,
+			);
+			path = "You Are Awesome!Tests";
+			sourceTree = "<group>";
+		};
+		49C16C5B23D120B300336215 /* You Are Awesome!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				49C16C5C23D120B300336215 /* You_Are_Awesome_UITests.swift */,
+				49C16C5E23D120B300336215 /* Info.plist */,
+			);
+			path = "You Are Awesome!UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49C16C3623D120AC00336215 /* You Are Awesome! */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C16C6123D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!" */;
+			buildPhases = (
+				49C16C3323D120AC00336215 /* Sources */,
+				49C16C3423D120AC00336215 /* Frameworks */,
+				49C16C3523D120AC00336215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "You Are Awesome!";
+			productName = "You Are Awesome!";
+			productReference = 49C16C3723D120AC00336215 /* You Are Awesome!.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49C16C4C23D120B300336215 /* You Are Awesome!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C16C6423D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!Tests" */;
+			buildPhases = (
+				49C16C4923D120B300336215 /* Sources */,
+				49C16C4A23D120B300336215 /* Frameworks */,
+				49C16C4B23D120B300336215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C16C4F23D120B300336215 /* PBXTargetDependency */,
+			);
+			name = "You Are Awesome!Tests";
+			productName = "You Are Awesome!Tests";
+			productReference = 49C16C4D23D120B300336215 /* You Are Awesome!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49C16C5723D120B300336215 /* You Are Awesome!UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C16C6723D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!UITests" */;
+			buildPhases = (
+				49C16C5423D120B300336215 /* Sources */,
+				49C16C5523D120B300336215 /* Frameworks */,
+				49C16C5623D120B300336215 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C16C5A23D120B300336215 /* PBXTargetDependency */,
+			);
+			name = "You Are Awesome!UITests";
+			productName = "You Are Awesome!UITests";
+			productReference = 49C16C5823D120B300336215 /* You Are Awesome!UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49C16C2F23D120AC00336215 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Patrick McDonough";
+				TargetAttributes = {
+					49C16C3623D120AC00336215 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					49C16C4C23D120B300336215 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 49C16C3623D120AC00336215;
+					};
+					49C16C5723D120B300336215 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 49C16C3623D120AC00336215;
+					};
+				};
+			};
+			buildConfigurationList = 49C16C3223D120AC00336215 /* Build configuration list for PBXProject "You Are Awesome!" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49C16C2E23D120AC00336215;
+			productRefGroup = 49C16C3823D120AC00336215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49C16C3623D120AC00336215 /* You Are Awesome! */,
+				49C16C4C23D120B300336215 /* You Are Awesome!Tests */,
+				49C16C5723D120B300336215 /* You Are Awesome!UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C16C3523D120AC00336215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C16C4723D120B300336215 /* LaunchScreen.storyboard in Resources */,
+				49C16C4423D120B300336215 /* Assets.xcassets in Resources */,
+				49C16C4223D120AC00336215 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C4B23D120B300336215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C5623D120B300336215 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49C16C3323D120AC00336215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C16C3F23D120AC00336215 /* ViewController.swift in Sources */,
+				49C16C3B23D120AC00336215 /* AppDelegate.swift in Sources */,
+				49C16C3D23D120AC00336215 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C4923D120B300336215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C16C5223D120B300336215 /* You_Are_Awesome_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C16C5423D120B300336215 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C16C5D23D120B300336215 /* You_Are_Awesome_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C16C4F23D120B300336215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C16C3623D120AC00336215 /* You Are Awesome! */;
+			targetProxy = 49C16C4E23D120B300336215 /* PBXContainerItemProxy */;
+		};
+		49C16C5A23D120B300336215 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49C16C3623D120AC00336215 /* You Are Awesome! */;
+			targetProxy = 49C16C5923D120B300336215 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49C16C4023D120AC00336215 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C16C4123D120AC00336215 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49C16C4523D120B300336215 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49C16C4623D120B300336215 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49C16C5F23D120B300336215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49C16C6023D120B300336215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49C16C6223D120B300336215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49C16C6323D120B300336215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49C16C6523D120B300336215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Are Awesome!.app/You Are Awesome!";
+			};
+			name = Debug;
+		};
+		49C16C6623D120B300336215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/You Are Awesome!.app/You Are Awesome!";
+			};
+			name = Release;
+		};
+		49C16C6823D120B300336215 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "You Are Awesome!";
+			};
+			name = Debug;
+		};
+		49C16C6923D120B300336215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BNGXY8T8NL;
+				INFOPLIST_FILE = "You Are Awesome!UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PatrickMcDonough.You-Are-Awesome-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "You Are Awesome!";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49C16C3223D120AC00336215 /* Build configuration list for PBXProject "You Are Awesome!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C16C5F23D120B300336215 /* Debug */,
+				49C16C6023D120B300336215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C16C6123D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C16C6223D120B300336215 /* Debug */,
+				49C16C6323D120B300336215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C16C6423D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C16C6523D120B300336215 /* Debug */,
+				49C16C6623D120B300336215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C16C6723D120B300336215 /* Build configuration list for PBXNativeTarget "You Are Awesome!UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C16C6823D120B300336215 /* Debug */,
+				49C16C6923D120B300336215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49C16C2F23D120AC00336215 /* Project object */;
+}
